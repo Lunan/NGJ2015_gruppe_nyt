@@ -12,7 +12,7 @@ public class TopDownMovement : MonoBehaviour {
 	
 	void Update() {
 		//if (controller.isGrounded) {
-		Debug.Log (speed);
+		//Debug.Log (speed);
 		moveDirection = new Vector3(Input.GetAxis ("Vertical"), 0, 0);
 		//moveDirection = transform.TransformDirection(moveDirection);
 		moveDirection *= speed;

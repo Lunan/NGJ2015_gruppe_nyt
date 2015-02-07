@@ -51,6 +51,7 @@
      <Compile Include="Assets\scripts\Speech.cs" />
      <Compile Include="Assets\scripts\TopDownMovement.cs" />
      <Compile Include="Assets\scripts\delivery_light.cs" />
+     <Compile Include="Assets\scripts\playerScript_delivery.cs" />
      <Compile Include="Assets\scripts\scene1.cs" />
      <None Include="Assets\this is an asset.txt" />
  <Reference Include="UnityEngine.UI">
