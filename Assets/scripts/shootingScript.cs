@@ -6,6 +6,7 @@ public class shootingScript : MonoBehaviour {
 
 	public Rigidbody2D bullet;
 	public float speed = 10f;
+	public AudioClip shootingAudio;
 	// Use this for initialization
 	void Start () {
 	
@@ -15,6 +16,7 @@ public class shootingScript : MonoBehaviour {
 	void Update () {
 		if (Input.GetMouseButtonDown (0)) {
 			//Debug.Log("pew?");
+			audio.Play();
 			Rigidbody2D bulletClone = (Rigidbody2D)Instantiate(bullet, transform.position, transform.rotation);
 			bulletClone.gameObject.SetActive(true);
 			Vector2 mousePos = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x,Camera.main.ScreenToWorldPoint(Input.mousePosition).y);

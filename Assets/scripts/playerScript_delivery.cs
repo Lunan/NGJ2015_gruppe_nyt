@@ -15,7 +15,7 @@ public class playerScript_delivery : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D col) {
 		if (col.gameObject.name == "Win_area") {
-			Application.LoadLevel("scene1");
+			Application.LoadLevel("scene2");
 		}
 	}
 }

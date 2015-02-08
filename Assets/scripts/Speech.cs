@@ -11,7 +11,7 @@ public class Speech : MonoBehaviour {
 	// Use this for initialization
 	void Awake () {
 		text = GetComponent<Text> ();
-		text.text = "Hello!:3";
+		text.text = "Welcome! It is good to see my new employee all ready for work.";
 	}
 	
 	// Update is called once per frame
@@ -20,18 +20,23 @@ public class Speech : MonoBehaviour {
 			textseq++;
 		}
 		if (textseq == 1) {
-			text.text = "blablabla";
+			text.text = "Here at OCM you can move up quickly if you do well.";
 		}
 		else
 		{
 			if(textseq == 2){
-				text.text = "other stuff";
+				text.text = "First, I need you to go down to city hall, to deliver these important documents";
 			}
 			else
 			{
 				if(textseq == 3)
 				{
-					text.text = "made it!";
+					text.text = "Since you're new to town I should say that trafficlights in this city doesn't work very well...";
+				}
+				else{
+					if (textseq == 4){
+						Application.LoadLevel("delivery");
+					}
 				}
 			}
 		}

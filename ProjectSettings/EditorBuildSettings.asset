@@ -7,3 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/scenes/scene1.unity
+  - enabled: 1
+    path: Assets/scenes/delivery.unity
+  - enabled: 1
+    path: Assets/scenes/scene2.unity
