@@ -10,6 +10,8 @@ public class BombSceneMovement : MonoBehaviour {
 	private float deltax = 0f;
 	private float x = 0f;
 	public Canvas bombPuzzle;
+	public bool solved = false;
+
 
 	// Use this for initialization
 	void Start () {
@@ -21,8 +23,9 @@ public class BombSceneMovement : MonoBehaviour {
 		x = Player.transform.position.x;
 		if (Player.transform.position.x < 13.23f) {
 			Player.transform.position = new Vector3 (Player.transform.position.x + speed, Player.transform.position.y, Player.transform.position.z);
-		} else {
-			bombPuzzle.enabled = true;
+		} else if(!solved){
+			bombPuzzle.gameObject.SetActive(true);
+			Player.gameObject.SetActive(false);
 		}
 		ani.SetFloat ("horizontal movement", deltax);
 	}
