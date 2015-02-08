@@ -17,7 +17,7 @@ public class TopDownMovement : MonoBehaviour {
 		//moveDirection = transform.TransformDirection(moveDirection);
 		moveDirection *= speed;
 
-		objectRotation = new Vector3(0,0,transform.rotation.y + Input.GetAxis("Horizontal"));
+		objectRotation = new Vector3(0,0,transform.rotation.y + Input.GetAxis("Horizontal")*-1);
 
 		transform.Translate(moveDirection * Time.deltaTime);
 		transform.Rotate(objectRotation);
