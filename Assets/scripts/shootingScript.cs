@@ -22,7 +22,11 @@ public class shootingScript : MonoBehaviour {
 			Vector2 mousePos = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x,Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
 			bulletClone.velocity = ((mousePos-gameObject.rigidbody2D.position)/(mousePos-gameObject.rigidbody2D.position).magnitude)*5;
 		}
+		if (GameObject.FindGameObjectsWithTag("destroyable").Length == 0) {
+			Debug.Log("Politiet kommer!");
+		}
 	}
+
 
 
 }
