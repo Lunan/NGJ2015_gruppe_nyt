@@ -1,13 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\CheckBomb.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\Speech3.cs">
     <Files>
+      <File FileName="Assets\scripts\BombSceneMovement.cs" Line="72" Column="34" />
       <File FileName="Assets\scripts\bulletScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\WireColor.cs" Line="18" Column="28" />
-      <File FileName="Assets\scripts\BombSceneMovement.cs" Line="13" Column="8" />
-      <File FileName="Assets\scripts\Movement.cs" Line="5" Column="28" />
+      <File FileName="Assets\scripts\WireColor.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\Movement.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\shootingScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\CheckBomb.cs" Line="36" Column="31" />
+      <File FileName="Assets\scripts\CheckBomb.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\AIforShooting.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\Speech2.cs" Line="42" Column="1" />
+      <File FileName="Assets\scripts\Speech3.cs" Line="40" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
