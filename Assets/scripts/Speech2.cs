@@ -20,7 +20,7 @@ public class Speech2 : MonoBehaviour {
 			textseq++;
 		}
 		if (textseq == 1) {
-			text.text = "You see, now I can commence with my demolishion project, and I'd like you to help!";
+			text.text = "We have been tasked with demolishing a building, and now we can proceed!";
 		}
 		else
 		{

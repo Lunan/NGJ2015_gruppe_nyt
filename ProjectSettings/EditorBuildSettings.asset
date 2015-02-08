@@ -11,3 +11,9 @@ EditorBuildSettings:
     path: Assets/scenes/delivery.unity
   - enabled: 1
     path: Assets/scenes/scene2.unity
+  - enabled: 1
+    path: Assets/scenes/bombScene.unity
+  - enabled: 1
+    path: Assets/scenes/scene3.unity
+  - enabled: 1
+    path: Assets/scenes/shooting.unity
