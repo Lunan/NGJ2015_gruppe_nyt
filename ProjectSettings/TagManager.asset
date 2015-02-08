@@ -45,6 +45,18 @@ TagManager:
     userID: 0
     uniqueID: 0
     locked: 0
+  - name: Spritebehind
+    userID: 3
+    uniqueID: 2916198809
+    locked: 0
+  - name: Spritemidel
+    userID: 2
+    uniqueID: 1205217475
+    locked: 0
+  - name: SpriteInfront
+    userID: 4
+    uniqueID: 1450311531
+    locked: 0
   - name: UI
     userID: 1
     uniqueID: 1727758149
