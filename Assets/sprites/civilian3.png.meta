@@ -1,9 +1,11 @@
 fileFormatVersion: 2
-guid: 85a6c759c10c7994ba87275576ea0809
+guid: 01001388b78c1234a9b86e36d67ede40
 TextureImporter:
   fileIDToRecycleName:
-    21300000: TopDownRun_body
-    21300002: TopDownRun_head
+    21300000: civilian3_body
+    21300002: civilian3_lefthand
+    21300004: civilian3_righthand
+    21300006: civilian3_head
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -45,23 +47,43 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: TopDownRun_body
+    - name: civilian3_body
       rect:
         serializedVersion: 2
-        x: 18
-        y: 31
-        width: 73
-        height: 143
+        x: 22
+        y: 49
+        width: 57
+        height: 126
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TopDownRun_head
+    - name: civilian3_lefthand
       rect:
         serializedVersion: 2
-        x: 100
-        y: 75
-        width: 61
-        height: 59
+        x: 98
+        y: 133
+        width: 30
+        height: 29
+      alignment: 9
+      pivot: {x: .269888312, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: civilian3_righthand
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 133
+        width: 31
+        height: 29
+      alignment: 9
+      pivot: {x: .330332607, y: .511335194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: civilian3_head
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 11
+        width: 67
+        height: 66
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

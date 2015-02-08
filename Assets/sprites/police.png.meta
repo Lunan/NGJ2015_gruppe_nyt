@@ -1,9 +1,10 @@
 fileFormatVersion: 2
-guid: 85a6c759c10c7994ba87275576ea0809
+guid: b20c431cf6d85b04ba4b91ff3fa55953
 TextureImporter:
   fileIDToRecycleName:
-    21300000: TopDownRun_body
-    21300002: TopDownRun_head
+    21300000: police_body
+    21300002: police_hands
+    21300004: police_head
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -45,21 +46,31 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: TopDownRun_body
+    - name: police_body
       rect:
         serializedVersion: 2
-        x: 18
-        y: 31
-        width: 73
-        height: 143
+        x: 15
+        y: 42
+        width: 71
+        height: 144
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: TopDownRun_head
+    - name: police_hands
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 86
+        width: 111
+        height: 52
+      alignment: 9
+      pivot: {x: .156461224, y: .462069452}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: police_head
       rect:
         serializedVersion: 2
         x: 100
-        y: 75
+        y: 7
         width: 61
         height: 59
       alignment: 0
